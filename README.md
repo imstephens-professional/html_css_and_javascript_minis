@@ -1,6 +1,6 @@
 # JavaScript Mini Projects
 ## Description
-Small coding projects in JavaScript. These projects are designed to familiarize the developer with JavaScript.
+Small coding projects in JavaScript. These projects are designed to familiarize the developer with JavaScript (and subsequently HTML & CSS).
 
 ## Projects (Difficulty, Start Date, & Completion Status)
 * Name & Color Prompt (Easy; Planned)
