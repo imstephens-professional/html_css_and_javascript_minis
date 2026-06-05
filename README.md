@@ -1,4 +1,4 @@
-# JavaScript Mini Projects
+# HTML, CSS, & JavaScript Mini Projects
 ## Description
 Small coding projects in JavaScript. These projects are designed to familiarize the developer with JavaScript (and subsequently HTML & CSS).
 
