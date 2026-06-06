@@ -3,9 +3,12 @@
 Small coding projects in JavaScript. These projects are designed to familiarize the developer with JavaScript (and subsequently HTML & CSS).
 
 ## Projects (Difficulty, Start Date, & Completion Status)
-* Name & Color Prompt (Easy; Planned)
-* Recipe Website (Easy; Planned)
-* Cookie Clicker Game (Easy; Planned)
-* Chemistry 101 Unit Quizzes (Medium; Planned)
-* Interactable Periodic Table (Medium; Planned)
-* Solitaire Game (Medium; Planned)
+| Project Name | Difficulty | Start Date | Completion |
+| --- | --- | --- | --- |
+| Name & Color Prompt | Easy | N/A | Planned |
+| One-Page Recipe Website | Easy | N/A | Planned |
+| Cookie Clicker Game | Easy | N/A | Planned |
+| Chemistry 101 Unit Quizzes | Easy | N/A | Planned |
+| Interactable Periodic Table | Medium | N/A | Planned |
+| Solitaire Game | Medium | N/A | Planned |
+
