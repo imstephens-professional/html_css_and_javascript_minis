@@ -9,6 +9,7 @@ Small coding projects in JavaScript. These projects are designed to familiarize 
 | One-Page Recipe Website | Easy | N/A | Planned |
 | Cookie Clicker Game | Easy | N/A | Planned |
 | Chemistry 101 Unit Quizzes | Easy | N/A | Planned |
+| Mock Paint Program | Medium | N/A | Planned |
 | Interactable Periodic Table | Medium | N/A | Planned |
 | Solitaire Game | Medium | N/A | Planned |
 
