@@ -1,6 +1,6 @@
 # HTML, CSS, & JavaScript Mini Projects
 ## Description
-Small coding projects in JavaScript. These projects are designed to familiarize the developer with JavaScript (and subsequently HTML & CSS).
+Small coding projects in JavaScript. These projects are designed to familiarize the developer with JavaScript (and subsequently HTML & CSS). hese projects are developed in [Visual Studio Code](https://code.visualstudio.com/).
 
 ## Projects (Difficulty, Start Date, & Completion Status)
 | Project Name | Difficulty | Start Date | Completion |
