@@ -1,15 +1,15 @@
 # HTML, CSS, & JavaScript Mini Projects
 ## Description
-Small coding projects in JavaScript. These projects are designed to familiarize the developer with JavaScript (and subsequently HTML & CSS). hese projects are developed in [Visual Studio Code](https://code.visualstudio.com/).
+Small coding projects in JavaScript. These projects are designed to familiarize the developer with JavaScript (and subsequently HTML & CSS). These projects are developed in [Visual Studio Code](https://code.visualstudio.com/).
 
 ## Projects (Difficulty, Start Date, & Completion Status)
-| Project Name | Difficulty | Start Date | Completion |
-| --- | --- | --- | --- |
-| Name & Color Prompt | Easy | N/A | Planned |
-| One-Page Recipe Website | Easy | N/A | Planned |
-| Cookie Clicker Game | Easy | N/A | Planned |
-| Chemistry 101 Unit Quizzes | Easy | N/A | Planned |
-| Mock Paint Program | Medium | N/A | Planned |
-| Interactable Periodic Table | Medium | N/A | Planned |
-| Solitaire Game | Medium | N/A | Planned |
+| Project Name | Start Date | Completion |
+| --- | --- | --- |
+| Name & Color Prompt | July 2026 | **Incomplete** |
+| One-Page Recipe Website | N/A | Planned |
+| Cookie Clicker Game | N/A | Planned |
+| Chemistry 101 Unit Quizzes | N/A | Planned |
+| Mock Paint Program | N/A | Planned |
+| Interactable Periodic Table | N/A | Planned |
+| Solitaire Game | N/A | Planned |
 
