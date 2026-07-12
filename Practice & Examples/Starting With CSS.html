@@ -6,16 +6,44 @@
         <meta name="viewport" content=""width=device-width, initial-scale="1.0">
         <title>My Third Document</title> <!--The header seen on tab-->
         <style>
-            h1{
+            <!--Classes-->
+            .blueBackground {
                 background-color: blue;
+            }
+            .redBackground {
+                background-color: red;
+            }
+            .purpleBackground {
+                background-color: purple;
+            }
+
+            <!--ID-->
+            #changeColor {
+                color: white;
+            }
+
+            <!--Universal-->
+            * {
+                color: wheat;
+            }
+
+            div h1 {
+                background-color: black;
+                color: aquamarine;
             }
         </style>
     </head>
     <body>
-        <h1>This is my first h1 tag</h1>
-        <h2>This is my first h2 tag</h2>
-        <h1>This is my second h1 tag</h1>
-        <h2>This is my second h2 tag</h2>
+        <h1 class="blueBackground">This is my first h1 tag</h1>
+        <h2 class="redBackground">This is my first h2 tag</h2>
+        <h1 class="blueBackground">This is my second h1 tag</h1>
+        <h2 class="purpleBackground">This is my second h2 tag</h2>
+        <h1 class="blueBackground" id="changeColor">This is my third h1 tag</h1>
+        <div>
+            <h1>I am inside div</h1>
+            <h1>I am inside div</h1>
+            <section>I am inside div</section>
+        </div>
     </body>
 
 
