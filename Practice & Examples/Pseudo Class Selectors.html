@@ -27,9 +27,30 @@
            input:focus {
             background-color: yellow;
            }
+
+           /***Changes the bckgd color of corresponding <p> ***/
+           p:nth-child(2n+3) {             /***Change to 2n to effect all even nums***/
+            background-color: red;
+           }
+           
+           p:first-child {
+            background-color: yellowgreen;
+           }
         </style>
     </head>
     <body>
+        <p>One</p>          <!--Turns yellow (first-child)-->
+        <p>Two</p>
+        <p>Three</p>        <!--Turns red (nth-child)-->
+        <p>Four</p>
+        <p>Five</p>         <!--Turns red (nth-child)-->
+        <div>
+            <p>Six</p>      <!--Turns yellow (first-child)-->
+            <p>Seven</p>
+            <p>Eight</p>    <!--Turns red (nth-child)-->
+            <p>Nine</p>
+        </div>
+
         <button>
             Click Me
         </button>
