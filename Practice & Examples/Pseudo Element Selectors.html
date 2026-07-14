@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang ="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <title>My Fifth Document</title> <!--The header seen on tab-->
+        <style>
+            #chat::before {             /***before=before text***/
+                content:'';
+                display: inline-block;     /***in-line block for a single block***/
+                width: 20px;
+                height: 20px;
+                background-color: bisque;
+                border: brown;
+                border-radius: 50;
+            }
+
+            #chat::after {
+                content:'New Message';
+                background-color: gray;
+                opacity: 0.3;
+                border: black;
+                border-radius: 50;
+                margin-left: 9px;
+                padding: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="chat">Lauren P.</p>
+        <p id="msg">And so I was without will, without dignity, and without entry to paradise. It was little surprise when I failed to show up the next day.</p>    
+        
+        <p id="chat">Sarah G.</p>
+        <p id="msg">lmao shut up</p>
+
+        <p id="chat">Lauren P.</p>
+        <p id="msg">I'm tired of you.</p>
+    </body>
+
+
+</html>
