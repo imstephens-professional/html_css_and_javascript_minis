@@ -1,0 +1,15 @@
+/***Allows users to control height+width of elements***/
+/***Exception: Inline elements; block elements where overflow property=visible***/
+.element{
+  resize: both;
+}
+          
+/***Floating effect called New Morphism***/
+body {
+  background-color:cornsilk;
+}
+
+.element: hover{
+  box-shadow: 12px 12px 12px rgba(0,0,0,0.1), /***put inset here for carving effect***/
+            -10px, -10px, 10px white;   /***put inset here for carving effect***/
+}
