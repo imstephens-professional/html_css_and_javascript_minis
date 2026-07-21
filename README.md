@@ -6,7 +6,7 @@ Small coding projects in JavaScript. These projects are designed to familiarize 
 | Project Name | Start Date | Completion |
 | --- | --- | --- |
 | Name & Color Prompt | July 2026 | **Incomplete** |
-| One-Page Recipe Website | N/A | Planned |
+| One-Page Recipe Website | July 2026 | **Incomplete** |
 | Cookie Clicker Game | N/A | Planned |
 | Chemistry 101 Unit Quizzes | N/A | Planned |
 | Mock Paint Program | N/A | Planned |
