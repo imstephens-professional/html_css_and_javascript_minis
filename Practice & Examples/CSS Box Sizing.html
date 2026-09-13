@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang ="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <title>CSS Box Sizing</title> <!--margin, border, padding, box-->
+        
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            #one {
+                height: 50px;
+                background-color: aqua;
+                width: 100%;
+                padding: 20px;
+                box-sizing: border-box; /*The padding does not overflow the main box*/
+                border: 5px solid red;
+            }
+
+            #two {
+                height: 50px;
+                background-color: rgb(206, 177, 205);
+            }
+
+            #main {
+                border: 10px solid black;
+                width: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <div id="one">
+                One rara
+            </div>
+
+            <div id="two">
+                Two
+            </div>
+        </div>
+    </body>
+</html>
