@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang ="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <title>CSS Box Sizing</title> <!--margin, border, padding, box-->
+        
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            table {
+                margin: 10px;
+                width: 500px;
+            }
+
+            table, tr, td, th {
+                border: 1px solid black;
+                border-collapse: collapse;
+                text-align: left;
+                padding: 2px;
+            }
+            
+            th {    /*The head of the table*/
+                background-color: black;
+                color: white;
+                font-weight: bold;
+            }
+
+            tr:nth-child(even) {    /*Each even num of the table is colored bisque*/
+                background-color: bisque;
+            }
+
+            td:hover { /*Hovering over a box changes the color*/
+                background-color: azure;
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>Scott</td>
+            </tr>
+            <tr>
+                <td>Terra</td>
+                <td>Cotta</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>Scott</td>
+            </tr>
+            <tr>
+                <td>Terra</td>
+                <td>Cotta</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>Scott</td>
+            </tr>
+            <tr>
+                <td>Terra</td>
+                <td>Cotta</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>Scott</td>
+            </tr>
+            <tr>
+                <td>Terra</td>
+                <td>Cotta</td>
+            </tr>
+        </table>
+    </body>
+</html>
