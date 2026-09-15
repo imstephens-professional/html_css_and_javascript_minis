@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang ="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <title>CSS Display Grid 1</title> <!--margin, border, padding, box-->
+        
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .grid-container {
+                background-color: blue;
+                padding: 10px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-auto-rows: minmax(200px, auto);
+                grid-column-gap: 10px;
+                grid-row-gap: 10px;
+            }
+
+            .grid-item {
+                background-color: wheat;
+                border: 1px solid black;
+                padding: 20px;
+                font-size: 30px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="grid-item">Over and over and/Over and over and/Over and over/Over and over/I fuck myself over/And under and under/I do it again//Morning and evening/I felt I was grieving/Until I said fuck you/And never again//Daytime or night time I feel I’m on my time/But my time is fickle/Just like a friend</div>
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+        </div>
+    </body>
+</html>
