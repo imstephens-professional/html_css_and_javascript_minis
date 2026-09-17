@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang ="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <title>CSS Display Grid 2</title> <!--margin, border, padding, box-->
+        
+
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .grid-container {
+                background-color: blue;
+                padding: 10px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-auto-rows: minmax(200px, auto);
+                grid-gap: 10px;
+                grid-template-areas: "header header header"
+                "sidebar content content"
+                "sidebar content content";
+            }
+
+            .grid-item {
+                background-color: wheat;
+                border: 1px solid black;
+                padding: 20px;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .item-1 {
+                grid-area: header;
+            }
+
+            .item-2 {
+                grid-area: sidebar;
+            }
+
+            .item-3 {
+                grid-area: content;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="grid-item item-1">1</div>
+            <div class="grid-item item-2">2</div>
+            <div class="grid-item item-3">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+        </div>
+    </body>
+</html>
