@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang ="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <title>CSS Image Styling 1</title> 
+
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            img {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                /*border: 2px solid black;
+                /*border-radius: 50%; /*creates oval*/
+                filter:sepia(30%); 
+            }
+
+            .images {
+                box-shadow: 0px 4px 8px 0px rgb(0,0,0,0.5);
+                width: 500px;
+            }
+
+            #text {
+                text-align: center;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="images">
+            <img src="./bird.jpg" width="500px" height="auto">
+            <p id="text">A lovely bird!</p>
+        </div>
+        
+    </body>
+</html>
